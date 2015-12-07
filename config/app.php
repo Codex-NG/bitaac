@@ -145,6 +145,8 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        Bitfabric\Core\Providers\CoreServiceProvider::class,
+        bitaac\RetroTheme\Providers\RetroThemeServiceProvider::class,
     ],
 
     /*
