@@ -14,8 +14,8 @@
     "type": "project",
     "require": {
         "php": ">=5.5.9",
-        "apolune/core": "dev-master",
-        "pandaac/theme-tibia": "dev-master"
+        "bitaac/bitfabric": "dev-master",
+        "bitaac/retro-theme": "dev-master"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
