@@ -1,14 +1,21 @@
 {
     "name": "bitaac/bitaac",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "description": "An automatic account creator for Open Tibia servers.",
+    "keywords": ["bitaac", "bitfabric", "laravel", "tibia", "opentibia"],
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Kristoffer Eklund",
+            "email": "kristoffereklund1@gmail.com",
+            "homepage": "https://otland.net/members/cornex.10032/",
+            "role": "Developer"
+        }
+    ],
     "type": "project",
     "require": {
         "php": ">=5.5.9",
-        "laravel/framework": "5.1.*",
-        "bitaac/bitfabric": "dev-master",
-        "bitaac/retro-theme": "dev-master"
+        "apolune/core": "dev-master",
+        "pandaac/theme-tibia": "dev-master"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -24,15 +31,13 @@
             "App\\": "app/"
         }
     },
-    "autoload-dev": {
-        "classmap": [
-            "tests/TestCase.php"
-        ]
-    },
+    "autoload-dev": {},
     "scripts": {
         "post-install-cmd": [
             "php artisan clear-compiled",
-            "php artisan optimize"
+            "php artisan optimize",
+            "php artisan vendor:publish --tag=public",
+            "php artisan vendor:publish --tag=config"
         ],
         "pre-update-cmd": [
             "php artisan clear-compiled"
@@ -47,6 +52,7 @@
             "php artisan key:generate"
         ]
     },
+    "minimum-stability": "dev",
     "config": {
         "preferred-install": "dist"
     }
