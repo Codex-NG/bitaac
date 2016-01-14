@@ -1,27 +1,51 @@
-## Laravel PHP Framework
+## Installation
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+#### Requirements
+* PHP >= 5.5.9
+* OpenSSL PHP Extension
+* PDO PHP Extension
+* Mbstring PHP Extension
+* Tokenizer PHP Extension
+* [Composer](https://getcomposer.org/)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+#### Step 1.
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+Download and install bitaac by following command:
+```
+composer create-project bitaac/bitaac bitaac --prefer-dist
+```
 
-## Official Documentation
+Note: If on unix system you have to give the aac permissions, do so by running:
+```
+chmod -R 755 bitaac && chmod -R o+w bitaac/storage
+```
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+### Step 2.
 
-## Contributing
+Navigate into the project by running:
+```
+cd bitaac
+```
+Publish the assets by running:
+```
+php artisan vendor:publish
+```
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+### Step 3. (Configuration)
 
-## Security Vulnerabilities
+3a: Edit the connection details to match yours, this can be done inside ```.env```.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+3b: Open ```config/bitaac/app.php``` and change the distro service provider to match your distro. By default we use othire.
 
-### License
+3c: Make sure the database you have choosen have all distro tables since it will be required when running migrations.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+3d: Now run ```php artisan migrate```
+
+## Troubleshooting (Incomplete)
+
+### Internal server error 500
+
+### Main side are working, but not the routes
+
+
+
