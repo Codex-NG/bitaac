@@ -4,9 +4,112 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ea1fee525914154e6d6bbf071697b5a1",
-    "content-hash": "8b1485987e7c5949da82435d403e52e8",
+    "hash": "1def4ec692782b301b9cbfff3e25c58e",
+    "content-hash": "937502249e5f9ea62b37b956983db3e3",
     "packages": [
+        {
+            "name": "bitaac/bitfabric",
+            "version": "v0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bitaac/bitfabric.git",
+                "reference": "8ab89b7a33f2e3ba192bc7aa86f7371f6661b0a3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bitaac/bitfabric/zipball/8ab89b7a33f2e3ba192bc7aa86f7371f6661b0a3",
+                "reference": "8ab89b7a33f2e3ba192bc7aa86f7371f6661b0a3",
+                "shasum": ""
+            },
+            "require": {
+                "bitaac/othire": "^0.1.0",
+                "bitaac/theme-retro": "^0.1.0",
+                "cornex/eloquence": "~5.1@dev",
+                "filp/whoops": "~2.0",
+                "graham-campbell/exceptions": "^8.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "bitaac\\bitfabric\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Kristoffer Eklund",
+                    "email": "kristoffereklund1@gmail.com"
+                }
+            ],
+            "time": "2016-01-14 01:31:15"
+        },
+        {
+            "name": "bitaac/othire",
+            "version": "v0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bitaac/othire.git",
+                "reference": "7f4e6e7eadd2139d6d8cca4bcc31d7f86ed2f038"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bitaac/othire/zipball/7f4e6e7eadd2139d6d8cca4bcc31d7f86ed2f038",
+                "reference": "7f4e6e7eadd2139d6d8cca4bcc31d7f86ed2f038",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "bitaac\\Othire\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kristoffer Eklund",
+                    "email": "kristoffereklund1@gmail.com"
+                }
+            ],
+            "time": "2016-01-14 01:23:55"
+        },
+        {
+            "name": "bitaac/theme-retro",
+            "version": "v0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bitaac/theme-retro.git",
+                "reference": "e142a147ed73eb5e0f6e8e43c85984f9f2831b7b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bitaac/theme-retro/zipball/e142a147ed73eb5e0f6e8e43c85984f9f2831b7b",
+                "reference": "e142a147ed73eb5e0f6e8e43c85984f9f2831b7b",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "bitaac\\Theme\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "mit"
+            ],
+            "authors": [
+                {
+                    "name": "Kristoffer Eklund",
+                    "email": "kristoffereklund1@gmail.com"
+                }
+            ],
+            "time": "2016-01-14 01:22:50"
+        },
         {
             "name": "classpreloader/classpreloader",
             "version": "3.0.0",
@@ -60,6 +163,63 @@
                 "preload"
             ],
             "time": "2015-11-09 22:51:51"
+        },
+        {
+            "name": "cornex/eloquence",
+            "version": "v5.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cornex/eloquence.git",
+                "reference": "bb4e336532bdc8793ccf338cbf9c7ec5f5cc05ee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cornex/eloquence/zipball/bb4e336532bdc8793ccf338cbf9c7ec5f5cc05ee",
+                "reference": "bb4e336532bdc8793ccf338cbf9c7ec5f5cc05ee",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/contracts": "~5.1",
+                "illuminate/database": "~5.1",
+                "php": ">=5.5.9",
+                "sofa/hookable": "~1.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.9.4",
+                "phpunit/phpunit": "4.5.0",
+                "squizlabs/php_codesniffer": "2.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Sofa\\Eloquence\\": "src"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jarek Tkaczyk",
+                    "email": "jarek@softonsofa.com",
+                    "homepage": "http://softonsofa.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Flexible Searchable, Mappable, Metable, Validation and more extensions for Laravel Eloquent ORM.",
+            "keywords": [
+                "eloquent",
+                "laravel",
+                "mappable",
+                "metable",
+                "mutable",
+                "searchable"
+            ],
+            "time": "2015-11-21 12:09:56"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -160,6 +320,134 @@
                 "string"
             ],
             "time": "2015-11-06 14:35:42"
+        },
+        {
+            "name": "filp/whoops",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/filp/whoops.git",
+                "reference": "a327942c50cbd62b25c6fbe08f173031ce25fbff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/a327942c50cbd62b25c6fbe08f173031ce25fbff",
+                "reference": "a327942c50cbd62b25c6fbe08f173031ce25fbff",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.9.*",
+                "phpunit/phpunit": "^4.8 || ^5.0"
+            },
+            "suggest": {
+                "symfony/var-dumper": "Pretty print complex values better with var-dumper available",
+                "whoops/soap": "Formats errors as SOAP responses"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Whoops\\": "src/Whoops/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Filipe Dobreira",
+                    "homepage": "https://github.com/filp",
+                    "role": "Developer"
+                }
+            ],
+            "description": "php error handling for cool kids",
+            "homepage": "https://github.com/filp/whoops",
+            "keywords": [
+                "error",
+                "exception",
+                "handling",
+                "library",
+                "whoops",
+                "zf2"
+            ],
+            "time": "2016-01-06 17:51:21"
+        },
+        {
+            "name": "graham-campbell/exceptions",
+            "version": "v8.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/GrahamCampbell/Laravel-Exceptions.git",
+                "reference": "14e165a3fa250c61a69c5db8e8e1ad573de8968b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/GrahamCampbell/Laravel-Exceptions/zipball/14e165a3fa250c61a69c5db8e8e1ad573de8968b",
+                "reference": "14e165a3fa250c61a69c5db8e8e1ad573de8968b",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/contracts": "5.1.*|5.2.*",
+                "illuminate/support": "5.1.*|5.2.*",
+                "paragonie/random_compat": "^1.1",
+                "php": ">=5.5.9",
+                "psr/log": "^1.0",
+                "symfony/debug": "^2.7|^3.0",
+                "symfony/http-foundation": "^2.7|^3.0"
+            },
+            "require-dev": {
+                "filp/whoops": "^1.1",
+                "graham-campbell/testbench": "^3.1",
+                "mockery/mockery": "^0.9.4",
+                "phpunit/phpunit": "^4.8|^5.0"
+            },
+            "suggest": {
+                "filp/whoops": "Enables use of the debug displayer."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "8.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GrahamCampbell\\Exceptions\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Graham Campbell",
+                    "email": "graham@alt-three.com"
+                }
+            ],
+            "description": "Provides A Powerful Error Response System For Both Development And Production",
+            "keywords": [
+                "Graham Campbell",
+                "GrahamCampbell",
+                "Laravel Exceptions",
+                "Laravel-Exceptions",
+                "error",
+                "errors",
+                "exception",
+                "exceptions",
+                "framework",
+                "laravel",
+                "whoops"
+            ],
+            "time": "2016-01-07 02:34:58"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -894,6 +1182,51 @@
                 "shell"
             ],
             "time": "2015-11-12 16:18:56"
+        },
+        {
+            "name": "sofa/hookable",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jarektkaczyk/hookable.git",
+                "reference": "e1ce599587c1f65b96e852b3702d5dc00f8a8b7a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jarektkaczyk/hookable/zipball/e1ce599587c1f65b96e852b3702d5dc00f8a8b7a",
+                "reference": "e1ce599587c1f65b96e852b3702d5dc00f8a8b7a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "crysalead/kahlan": "~1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Sofa\\Hookable\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jarek Tkaczyk",
+                    "email": "jarek@softonsofa.com",
+                    "homepage": "http://softonsofa.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Laravel Eloquent hooks system.",
+            "keywords": [
+                "eloquent",
+                "laravel"
+            ],
+            "time": "2015-11-17 15:31:14"
         },
         {
             "name": "swiftmailer/swiftmailer",
