@@ -156,7 +156,8 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
-        bitaac\bitfabric\BitfabricServiceProvider::class,
+        GrahamCampbell\Exceptions\ExceptionsServiceProvider::class,
+        bitaac\bitfabric\Core\Providers\BitfabricServiceProvider::class,
 
     ],
 

@@ -1,7 +1,5 @@
 <?php
-
 return [
-
     /*
     |--------------------------------------------------------------------------
     | Authentication Defaults
@@ -12,12 +10,10 @@ return [
     | as required, but they're a perfect start for most applications.
     |
     */
-
     'defaults' => [
         'guard' => 'web',
         'passwords' => 'users',
     ],
-
     /*
     |--------------------------------------------------------------------------
     | Authentication Guards
@@ -34,19 +30,16 @@ return [
     | Supported: "session", "token"
     |
     */
-
     'guards' => [
         'web' => [
             'driver' => 'session',
             'provider' => 'bitaac',
         ],
-
         'api' => [
             'driver' => 'token',
             'provider' => 'users',
         ],
     ],
-
     /*
     |--------------------------------------------------------------------------
     | User Providers
@@ -63,14 +56,12 @@ return [
     | Supported: "database", "eloquent"
     |
     */
-
     'providers' => [
         'bitaac' => [
             'driver' => 'bitaac',
-            'model' => bitaac\bitfabric\Contracts\Account::class,
+            'model' => bitaac\bitfabric\Account\Contracts\Account::class,
         ],
     ],
-
     /*
     |--------------------------------------------------------------------------
     | Resetting Passwords
@@ -89,7 +80,6 @@ return [
     | they have less time to be guessed. You may change this as needed.
     |
     */
-
     'passwords' => [
         'users' => [
             'provider' => 'users',
@@ -98,5 +88,4 @@ return [
             'expire' => 60,
         ],
     ],
-
 ];

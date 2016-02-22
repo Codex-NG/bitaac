@@ -48,4 +48,3 @@ php artisan vendor:publish
 ### Main side are working, but not the routes
 
 
-
