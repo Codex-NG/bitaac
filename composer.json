@@ -1,7 +1,7 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "name": "bitaac/bitaac",
+    "description": "An automatic account creator for Open Tibia servers.",
+    "keywords": ["bitaac", "bitfabric", "laravel", "tibia", "opentibia"],
     "license": "MIT",
     "type": "project",
     "require": {
@@ -56,5 +56,8 @@
     "config": {
         "preferred-install": "dist"
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev",
+    "config": {
+        "preferred-install": "dist"
+    }
 }
