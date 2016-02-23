@@ -12,7 +12,7 @@
 
 Download and install bitaac by following command:
 ```
-composer create-project bitaac/bitaac bitaac --prefer-dist
+composer create-project bitaac/bitaac bitaac dev-master
 ```
 
 Note: If on unix system you have to give the aac permissions, do so by running:
@@ -40,6 +40,8 @@ php artisan vendor:publish
 3c: Make sure the database you have choosen have all distro tables since it will be required when running migrations.
 
 3d: Now run ```php artisan migrate```
+
+3e: Run the database seeder ```php artisan db:seed --class=NewsTableSeeder```
 
 ## Troubleshooting (Incomplete)
 
