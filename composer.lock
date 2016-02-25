@@ -13,16 +13,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/bitaac/bitfabric.git",
-                "reference": "2af332075d8a5ec71a173036138c33febe72429b"
+                "reference": "ce1d71afc56b532691589dcae957a58b6c8adf01"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bitaac/bitfabric/zipball/2af332075d8a5ec71a173036138c33febe72429b",
-                "reference": "2af332075d8a5ec71a173036138c33febe72429b",
+                "url": "https://api.github.com/repos/bitaac/bitfabric/zipball/ce1d71afc56b532691589dcae957a58b6c8adf01",
+                "reference": "ce1d71afc56b532691589dcae957a58b6c8adf01",
                 "shasum": ""
             },
             "require": {
-                "cornex/eloquence": "^5.1.6"
+                "cornex/eloquence": "^5.1.6",
+                "paypal/rest-api-sdk-php": "*"
             },
             "type": "library",
             "autoload": {
@@ -40,7 +41,7 @@
                     "email": "kristoffereklund1@gmail.com"
                 }
             ],
-            "time": "2016-02-22 21:41:44"
+            "time": "2016-02-25 17:51:37"
         },
         {
             "name": "bitaac/othire",
@@ -80,12 +81,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/bitaac/tfs10.git",
-                "reference": "c9ae93db9024ccee05508ab95f953222679a87ad"
+                "reference": "dde19eb4320dca870403d1651617243955e98cc1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bitaac/tfs10/zipball/c9ae93db9024ccee05508ab95f953222679a87ad",
-                "reference": "c9ae93db9024ccee05508ab95f953222679a87ad",
+                "url": "https://api.github.com/repos/bitaac/tfs10/zipball/dde19eb4320dca870403d1651617243955e98cc1",
+                "reference": "dde19eb4320dca870403d1651617243955e98cc1",
                 "shasum": ""
             },
             "type": "library",
@@ -104,7 +105,7 @@
                     "email": "kristoffereklund1@gmail.com"
                 }
             ],
-            "time": "2016-02-22 21:48:43"
+            "time": "2016-02-23 23:39:12"
         },
         {
             "name": "bitaac/theme-retro",
@@ -112,12 +113,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/bitaac/theme-retro.git",
-                "reference": "457d87ffd14ee773ade02a818bb9780aaa26caa7"
+                "reference": "2ed286a1978e1e5c2465d56cbf9c6057a1ca3618"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bitaac/theme-retro/zipball/457d87ffd14ee773ade02a818bb9780aaa26caa7",
-                "reference": "457d87ffd14ee773ade02a818bb9780aaa26caa7",
+                "url": "https://api.github.com/repos/bitaac/theme-retro/zipball/2ed286a1978e1e5c2465d56cbf9c6057a1ca3618",
+                "reference": "2ed286a1978e1e5c2465d56cbf9c6057a1ca3618",
                 "shasum": ""
             },
             "type": "library",
@@ -136,7 +137,7 @@
                     "email": "kristoffereklund1@gmail.com"
                 }
             ],
-            "time": "2016-02-22 21:56:05"
+            "time": "2016-02-25 05:43:26"
         },
         {
             "name": "classpreloader/classpreloader",
@@ -673,12 +674,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "9cc8f51758db47ba4527321a59f0e742c50dc70a"
+                "reference": "eb7d0357eb5c39f8380c8798a447f9c760acbcb8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/9cc8f51758db47ba4527321a59f0e742c50dc70a",
-                "reference": "9cc8f51758db47ba4527321a59f0e742c50dc70a",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/eb7d0357eb5c39f8380c8798a447f9c760acbcb8",
+                "reference": "eb7d0357eb5c39f8380c8798a447f9c760acbcb8",
                 "shasum": ""
             },
             "require": {
@@ -793,7 +794,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-02-22 20:29:02"
+            "time": "2016-02-25 14:57:54"
         },
         {
             "name": "league/flysystem",
@@ -884,12 +885,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "79817af0de141a2278e54acd01fb2532a7548516"
+                "reference": "fb314292abcbfb61782e065fb9b13d5302ecc9e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/79817af0de141a2278e54acd01fb2532a7548516",
-                "reference": "79817af0de141a2278e54acd01fb2532a7548516",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/fb314292abcbfb61782e065fb9b13d5302ecc9e3",
+                "reference": "fb314292abcbfb61782e065fb9b13d5302ecc9e3",
                 "shasum": ""
             },
             "require": {
@@ -954,7 +955,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2016-01-22 18:13:50"
+            "time": "2016-02-24 18:37:37"
         },
         {
             "name": "mtdowling/cron-expression",
@@ -1145,6 +1146,54 @@
                 "random"
             ],
             "time": "2016-02-06 03:52:05"
+        },
+        {
+            "name": "paypal/rest-api-sdk-php",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paypal/PayPal-PHP-SDK.git",
+                "reference": "d59c695dde341c63b208c120e526d7c5cbda8d08"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paypal/PayPal-PHP-SDK/zipball/d59c695dde341c63b208c120e526d7c5cbda8d08",
+                "reference": "d59c695dde341c63b208c120e526d7c5cbda8d08",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "PayPal": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache2"
+            ],
+            "authors": [
+                {
+                    "name": "PayPal",
+                    "homepage": "https://github.com/paypal/rest-api-sdk-php/contributors"
+                }
+            ],
+            "description": "PayPal's PHP SDK for REST APIs",
+            "homepage": "http://paypal.github.io/PayPal-PHP-SDK/",
+            "keywords": [
+                "payments",
+                "paypal",
+                "rest",
+                "sdk"
+            ],
+            "time": "2016-02-11 00:38:44"
         },
         {
             "name": "psr/log",
@@ -1378,12 +1427,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "3c7b1efe3e5da01b7a51743c44b091e53b2bb9f6"
+                "reference": "d317b8c81e0d4b918a95c26c0285c5eef5a02bcd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/3c7b1efe3e5da01b7a51743c44b091e53b2bb9f6",
-                "reference": "3c7b1efe3e5da01b7a51743c44b091e53b2bb9f6",
+                "url": "https://api.github.com/repos/symfony/console/zipball/d317b8c81e0d4b918a95c26c0285c5eef5a02bcd",
+                "reference": "d317b8c81e0d4b918a95c26c0285c5eef5a02bcd",
                 "shasum": ""
             },
             "require": {
@@ -1430,7 +1479,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2016-02-17 06:14:35"
+            "time": "2016-02-23 15:16:06"
         },
         {
             "name": "symfony/debug",
@@ -1604,12 +1653,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "5465abe3fcb34bdbccfe216b02a073ab38c22663"
+                "reference": "287ac35a6270efc2cd8772216d18870e587d9115"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/5465abe3fcb34bdbccfe216b02a073ab38c22663",
-                "reference": "5465abe3fcb34bdbccfe216b02a073ab38c22663",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/287ac35a6270efc2cd8772216d18870e587d9115",
+                "reference": "287ac35a6270efc2cd8772216d18870e587d9115",
                 "shasum": ""
             },
             "require": {
@@ -1648,7 +1697,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2016-02-18 09:00:02"
+            "time": "2016-02-23 15:16:06"
         },
         {
             "name": "symfony/http-kernel",
@@ -1656,12 +1705,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "806c32a97ceb27b45e6cc58b7c55d55101212421"
+                "reference": "f8b1747f8ebd2b5ab476dfecfc89eba029618f3d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/806c32a97ceb27b45e6cc58b7c55d55101212421",
-                "reference": "806c32a97ceb27b45e6cc58b7c55d55101212421",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/f8b1747f8ebd2b5ab476dfecfc89eba029618f3d",
+                "reference": "f8b1747f8ebd2b5ab476dfecfc89eba029618f3d",
                 "shasum": ""
             },
             "require": {
@@ -1730,7 +1779,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "https://symfony.com",
-            "time": "2016-02-17 06:14:35"
+            "time": "2016-02-23 15:16:06"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -2263,12 +2312,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "d8c0bebc230284edc91b5e7091013e7a0c55bf34"
+                "reference": "66ea6b0334813292af03ffbb8c0ee6beee65fd89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/d8c0bebc230284edc91b5e7091013e7a0c55bf34",
-                "reference": "d8c0bebc230284edc91b5e7091013e7a0c55bf34",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/66ea6b0334813292af03ffbb8c0ee6beee65fd89",
+                "reference": "66ea6b0334813292af03ffbb8c0ee6beee65fd89",
                 "shasum": ""
             },
             "require": {
@@ -2305,7 +2354,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2016-02-20 14:15:56"
+            "time": "2016-02-23 15:32:04"
         },
         {
             "name": "hamcrest/hamcrest-php",
@@ -2780,12 +2829,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "6e351261f9cd33daf205a131a1ba61c6d33bd483"
+                "reference": "264188ddf4d3586c80ea615f8ec8eaea34e652a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/6e351261f9cd33daf205a131a1ba61c6d33bd483",
-                "reference": "6e351261f9cd33daf205a131a1ba61c6d33bd483",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/264188ddf4d3586c80ea615f8ec8eaea34e652a1",
+                "reference": "264188ddf4d3586c80ea615f8ec8eaea34e652a1",
                 "shasum": ""
             },
             "require": {
@@ -2844,7 +2893,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2016-02-11 14:56:33"
+            "time": "2016-02-23 11:54:56"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
