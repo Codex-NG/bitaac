@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/bitaac/bitfabric.git",
-                "reference": "bb0195ec6ab32fcf6f3735be44ad89b0e5401c79"
+                "reference": "f1a338ec1b09f1a5a33e8eb93e10a9b8e5d3e6e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bitaac/bitfabric/zipball/bb0195ec6ab32fcf6f3735be44ad89b0e5401c79",
-                "reference": "bb0195ec6ab32fcf6f3735be44ad89b0e5401c79",
+                "url": "https://api.github.com/repos/bitaac/bitfabric/zipball/f1a338ec1b09f1a5a33e8eb93e10a9b8e5d3e6e2",
+                "reference": "f1a338ec1b09f1a5a33e8eb93e10a9b8e5d3e6e2",
                 "shasum": ""
             },
             "require": {
@@ -41,7 +41,7 @@
                     "email": "kristoffereklund1@gmail.com"
                 }
             ],
-            "time": "2016-03-05 16:49:33"
+            "time": "2016-03-05 20:44:34"
         },
         {
             "name": "bitaac/othire",
@@ -81,12 +81,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/bitaac/tfs10.git",
-                "reference": "a0a7ee5ea4dfd08429a5442689914d85d3c1adc0"
+                "reference": "70d78bd7992b4f58fe84a575bea589d2c6f3eabe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bitaac/tfs10/zipball/a0a7ee5ea4dfd08429a5442689914d85d3c1adc0",
-                "reference": "a0a7ee5ea4dfd08429a5442689914d85d3c1adc0",
+                "url": "https://api.github.com/repos/bitaac/tfs10/zipball/70d78bd7992b4f58fe84a575bea589d2c6f3eabe",
+                "reference": "70d78bd7992b4f58fe84a575bea589d2c6f3eabe",
                 "shasum": ""
             },
             "type": "library",
@@ -105,7 +105,7 @@
                     "email": "kristoffereklund1@gmail.com"
                 }
             ],
-            "time": "2016-03-05 16:51:53"
+            "time": "2016-03-05 20:44:16"
         },
         {
             "name": "bitaac/theme-retro",
@@ -113,12 +113,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/bitaac/theme-retro.git",
-                "reference": "79e4cd2f628f61e70b91896f3649528ade505cf9"
+                "reference": "5ae3c32de55d74be6097509533b9ec97dd067241"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bitaac/theme-retro/zipball/79e4cd2f628f61e70b91896f3649528ade505cf9",
-                "reference": "79e4cd2f628f61e70b91896f3649528ade505cf9",
+                "url": "https://api.github.com/repos/bitaac/theme-retro/zipball/5ae3c32de55d74be6097509533b9ec97dd067241",
+                "reference": "5ae3c32de55d74be6097509533b9ec97dd067241",
                 "shasum": ""
             },
             "type": "library",
@@ -137,7 +137,7 @@
                     "email": "kristoffereklund1@gmail.com"
                 }
             ],
-            "time": "2016-03-05 16:47:59"
+            "time": "2016-03-05 20:44:01"
         },
         {
             "name": "classpreloader/classpreloader",
