@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/bitaac/bitfabric.git",
-                "reference": "f1a338ec1b09f1a5a33e8eb93e10a9b8e5d3e6e2"
+                "reference": "b430b3b5f82743b08fd1a2f325a96d5e526ac534"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bitaac/bitfabric/zipball/f1a338ec1b09f1a5a33e8eb93e10a9b8e5d3e6e2",
-                "reference": "f1a338ec1b09f1a5a33e8eb93e10a9b8e5d3e6e2",
+                "url": "https://api.github.com/repos/bitaac/bitfabric/zipball/b430b3b5f82743b08fd1a2f325a96d5e526ac534",
+                "reference": "b430b3b5f82743b08fd1a2f325a96d5e526ac534",
                 "shasum": ""
             },
             "require": {
@@ -41,7 +41,7 @@
                     "email": "kristoffereklund1@gmail.com"
                 }
             ],
-            "time": "2016-03-05 20:44:34"
+            "time": "2016-03-05 21:19:06"
         },
         {
             "name": "bitaac/othire",
