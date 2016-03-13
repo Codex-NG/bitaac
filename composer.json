@@ -37,7 +37,6 @@
     },
     "scripts": {
         "post-root-package-install": [
-            "php artisan bitaac:install",
             "php -r \"copy('.env.example', '.env');\""
         ],
         "post-create-project-cmd": [

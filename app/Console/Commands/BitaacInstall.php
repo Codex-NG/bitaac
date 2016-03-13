@@ -70,6 +70,7 @@ DB_USERNAME=${db_username}
 DB_PASSWORD=${db_password}
 DISTRO=".$providers[$distro]."
             "); 
+            $filesystem->copy('.env.example', '.env');
         }   
     }
 }
