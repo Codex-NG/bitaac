@@ -56,7 +56,7 @@ class BitaacInstall extends Command
         }
 
         $providers = [
-            'tfs10'  => 'bitaac\Tfs10\Tfs10ServiceProvider',
+            'tfs10'  => 'Bitaac\Tfs10\Tfs10ServiceProvider',
             'othire' => 'bitaac\Othire\OthireServiceProvider',
         ];
 

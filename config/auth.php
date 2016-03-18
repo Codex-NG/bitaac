@@ -59,7 +59,7 @@ return [
     'providers' => [
         'bitaac' => [
             'driver' => 'bitaac',
-            'model' => bitaac\bitfabric\Account\Contracts\Account::class,
+            'model' => Bitaac\Account\Contracts\Account::class,
         ],
     ],
     /*
