@@ -157,7 +157,7 @@ return [
         App\Providers\RouteServiceProvider::class,
 
         GrahamCampbell\Exceptions\ExceptionsServiceProvider::class,
-        bitaac\bitfabric\Core\Providers\BitfabricServiceProvider::class,
+        Bitaac\Core\Providers\BitfabricServiceProvider::class,
 
     ],
 
