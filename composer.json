@@ -7,7 +7,7 @@
     "require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
-        "bitaac/bitfabric": "bitfabric-tfs10",
+        "bitaac/bitfabric": "dev-bitfabric-tfs10",
         "bitaac/theme-retro": "@dev",
         "filp/whoops": "~2.0",
         "graham-campbell/exceptions": "^8.1"
