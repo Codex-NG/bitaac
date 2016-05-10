@@ -1,7 +1,7 @@
 {
-    "name": "bitaac/bitaac",
-    "description": "An automatic account creator for Open Tibia servers.",
-    "keywords": ["bitaac", "bitfabric", "laravel", "tibia", "opentibia"],
+    "name": "laravel/laravel",
+    "description": "The Laravel Framework.",
+    "keywords": ["framework", "laravel"],
     "license": "MIT",
     "type": "project",
     "require": {
@@ -10,7 +10,9 @@
         "bitaac/bitfabric": "dev-tfs10",
         "bitaac/theme-retro": "@dev",
         "filp/whoops": "~2.0",
-        "graham-campbell/exceptions": "^8.1"
+        "graham-campbell/exceptions": "^8.1",
+        "paytal/paytal": "dev-master",
+        "paytal/paypal": "dev-master"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -40,17 +42,14 @@
             "php artisan key:generate"
         ],
         "post-install-cmd": [
-            "php artisan clear-compiled",
+            "Illuminate\\Foundation\\ComposerScripts::postInstall",
             "php artisan optimize"
         ],
-        "pre-update-cmd": [
-            "php artisan clear-compiled"
-        ],
         "post-update-cmd": [
+            "Illuminate\\Foundation\\ComposerScripts::postUpdate",
             "php artisan optimize"
         ]
     },
-    "minimum-stability": "dev",
     "config": {
         "preferred-install": "dist"
     }
